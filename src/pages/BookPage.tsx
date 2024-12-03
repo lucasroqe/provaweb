@@ -4,6 +4,7 @@ import books from "../data/books.json";
 export default function BookPage() {
   return (
     <WrapperSld>
+      <h2>LIVROS</h2>
       {books.map((book, id) => (
         <BookItem>      
           <h2>{id+1} - {book.title}</h2>
@@ -22,8 +23,7 @@ const WrapperSld = styled.div`
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #b0c4de;
-  /* max-width: 500px; */
+  background-color: gray;
   border-radius: 5px;
 `;
 

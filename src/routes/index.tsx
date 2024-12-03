@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { BookPage, HomePage } from "../pages";
-import Menu from "../components/Menu";
 
 export default function BookRoute() {
   return (
